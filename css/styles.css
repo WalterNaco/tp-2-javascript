@@ -46,7 +46,7 @@ footer {
   background-color: #323a42;
   color: white;
   text-align: center;
-  padding: 1em 0;
+  padding: 0.5rem 0;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -122,6 +122,44 @@ footer {
 
 span {
   font-weight: bolder;
+}
+
+#books-movies {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0;
+  color: #ffffff8c;
+}
+
+#books-movies h3 {
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+#books-list,
+#movies-list {
+  flex: 1;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+#books-movies h4 {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+#books,
+#movies {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#books li p,
+#movies li p {
+  margin: 5px 0 0;
 }
 
 /* Pagina de los personajes */
@@ -224,7 +262,7 @@ span {
 
 .card h4 {
   margin: 20px 0;
-  background-image: url(../assets/images/comedor\ velas.jpg); 
+  background-image: url(../assets/images/comedorvelas.jpg); 
 }
 
 .imgCards {

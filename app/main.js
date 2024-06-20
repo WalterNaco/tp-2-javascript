@@ -18,12 +18,7 @@ function showData(data) {
         if (character.gender === 'female') {
             actor = 'Actris';
         } 
-        let estado = person.alive;
-        if (estado) {
-          estado = "vivo";
-        } else {
-          estado = "fallecido";
-        }
+
         if(!character.actor) {
             actor = 'Googlealo..';
         }
@@ -39,7 +34,6 @@ function showData(data) {
                     >
                     <p class="character-house"><span>${character.house}</span></p>
                     <p class="character-house"><span>${actor}:</span> ${character.actor}</p>
-                    <p>Estado: ${estado}</p>
                 </div>
             </a>
             `;
